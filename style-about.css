@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/* header */
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    min-height: 55px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: "Trispace", sans-serif;
+  }
+  .nav-item {
+    display: inline-block;
+    margin-right: 16px;
+  }
+  .nav-item a {
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 120%;
+    color: #335555;
+  }
+  .nav-item a:hover {
+    font-weight: bold;
+  }
+  header nav {
+    border-bottom: 1px solid gray;
+  }
+
+/* Main */
+.main {
+  background-color: white;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+.main img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+.main p {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: orange;
+  color: white;
+  font-family: "Trispace", sans-serif;
+}
+
+footer h3 {
+  text-align: center;
+  color: white;
+}
+
+footer .about {
+  padding-left: 28%;
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 767px) {
+  footer .about {
+    padding-left: 15%;
+  }
+}
+@media only screen and (max-width: 399px) {
+  footer .about {
+    padding-left: 5%;
+  }
+}
+
+.socials-share {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.socials-share a {
+  padding: 4px 30px;
+  color: #fff;
+  line-height: 2em;
+  text-decoration: none;
+  border-radius: 2px;
+  white-space: nowrap;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.socials-share span.fa {
+  margin-right: 3px;
+}
+
+.bg-facebook {
+  background: #3a5899;
+}
+
+.bg-facebook:hover,
+.bg-facebook:focus {
+  background: #1d418d;
+}
+
+.bg-twitter {
+  background: #00acee;
+}
+
+.bg-twitter:hover,
+.bg-twitter:focus {
+  background: #0b93c7;
+}
+
+.bg-google-plus {
+  background: #db4437;
+}
+
+.bg-google-plus:hover,
+.bg-google-plus:focus {
+  background: #bb2a1d;
+}
+
+.bg-pinterest {
+  background: #cb1e26;
+}
+
+.bg-pinterest:hover,
+.bg-pinterest:focus {
+  background: #ae0e15;
+}

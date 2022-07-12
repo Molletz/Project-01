@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/* header */
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    min-height: 55px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: "Trispace", sans-serif;
+  }
+  .nav-item {
+    display: inline-block;
+    margin-right: 16px;
+  }
+  .nav-item a {
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 120%;
+    color: #335555;
+  }
+  .nav-item a:hover {
+    font-weight: bold;
+  }
+  header nav {
+    border-bottom: 1px solid gray;
+  }
+  .banner {
+    background-image: none;
+    min-height: auto;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-family: "Trispace", sans-serif;
+  }
+  .text-banner h1 {
+    color: black;
+  }
+  .text-banner p {
+    color: black;
+    font-style: italic;
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .banner {
+      background-image: url(img/van-hoa/banner-tra-sen.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 360px;
+      position: relative;
+    }
+    .text-banner {
+      position: absolute;
+      top: 20px;
+      left: 45px;
+    }
+    .text-banner h1 {
+      color: white;
+      font-family: "Dancing Script", cursive;
+    }
+    .text-banner p {
+      color: white;
+      font-family: "Trispace", sans-serif;
+    }
+  }
+  
+
+
+/* Main */
+.main {
+  background-color: whitesmoke;
+  padding: 45px 35px 30px 55px;
+}
+.main p {
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+  }
+
+.van-hoa {
+  margin-bottom: 20px;
+  border: 1px solid #cacaca;
+  padding: 15px 0px;
+}
+.pic-van-hoa a img {
+  width: 100%;
+  height: auto;
+}
+.gt-van-hoa h3 {
+    font-family: "Trispace", sans-serif;
+}
+
+/* Footer */
+footer {
+  background-color: orange;
+  color: white;
+  font-family: "Trispace", sans-serif;
+}
+
+footer h3 {
+  text-align: center;
+  color: white;
+}
+
+footer .about {
+  padding-left: 28%;
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 767px) {
+  footer .about {
+    padding-left: 15%;
+  }
+}
+@media only screen and (max-width: 399px) {
+  footer .about {
+    padding-left: 5%;
+  }
+}
+
+.socials-share {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.socials-share a {
+  padding: 4px 30px;
+  color: #fff;
+  line-height: 2em;
+  text-decoration: none;
+  border-radius: 2px;
+  white-space: nowrap;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.socials-share span.fa {
+  margin-right: 3px;
+}
+
+.bg-facebook {
+  background: #3a5899;
+}
+
+.bg-facebook:hover,
+.bg-facebook:focus {
+  background: #1d418d;
+}
+
+.bg-twitter {
+  background: #00acee;
+}
+
+.bg-twitter:hover,
+.bg-twitter:focus {
+  background: #0b93c7;
+}
+
+.bg-google-plus {
+  background: #db4437;
+}
+
+.bg-google-plus:hover,
+.bg-google-plus:focus {
+  background: #bb2a1d;
+}
+
+.bg-pinterest {
+  background: #cb1e26;
+}
+
+.bg-pinterest:hover,
+.bg-pinterest:focus {
+  background: #ae0e15;
+}
